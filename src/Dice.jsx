@@ -5,8 +5,8 @@ const Dice = ({ dice, color }) => {
 
   return (
     <section className="Dice">
-      {dice.map((v, i) => (
-        <Die key={i} val={v} color={color} />
+      {dice.map((val, i) => (
+        <Die key={i} val={val} color={color} />
       ))}
     </section>
   );
